@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Amusement Park - Tickets</title> 
+    <link rel= "stylesheet" type = "text/css" href ="style.css">
+</head>
+
+
+
+<html lang= "en">  
+    <body>
+    <div class="wrapper">
+        <div class = "sidebar">
+            <h2><a href = "index.html"><img src="Logo.png" alt ="Rollercoaster logo" width = "90" height = "90"></a></h2>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "tickets.html">Tickets</a></li>
+                <li><a href = "rideinfo.html">Ride Information</a></li>
+                <li><a href = "FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class = "main_content">
+            <div class = "headerr">Tickets</div>
+            <div class = "para" style =" overflow:scroll; overflow-y:scroll; overflow-x:hidden">
+            <div class = "brochure-container">
+              <div class = "brochure-body">
+                  <div class= "brochure-head">
+                      <h1>Buy Tickets</h1>
+                      <p>Book your stay!</p>
+                  </div>
+                  <form class = "brochure-box" action="form.php">
+                      <div class = "brochure-row">
+                          <div class = "brochure-col">
+                              <p>Your Full Name</p>
+                              <input type = "text" name = "bname" id="bname" placeholder="Your Full Name">
+                          </div>
+                          
+                          <div class = "brochure-col">
+                              <p>Your Email Address</p>
+                              <input type = "email" name = "email" id="email" placeholder="Your Email Address">
+                          </div>
+                      </div>
+                      <div class = "brochure-row">
+                          <div class = "brochure-col">
+                              <p>Select Date</p>
+                              <input type = "date" name = "date" id="date">
+                          </div>
+                          
+                          <div class = "brochure-col">
+                              <p>Select Ticket Type</p>
+                              <select name = "s-select">
+                                  <option >Select Ticket Type</option>
+                                  <option value = "Kid's General Admission">Kids Admission (kids 12 and younger)</option>
+                                  <option value = "Adult General Admission">Adult Admission</option>
+                                  <option value = "Senior's General Admission">Senior's Admission (65+)</option>
+                                  <option value = "Season's Pass">Season's Pass</option>
+                              </select>
+                          </div>
+                      </div>
+                      
+                      <div class = "brochure-row">
+                          <div class = "brochure-submit">
+                              <input type = "submit" value= "Submit">
+                          </div>
+                      </div>
+                      
+                  </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+        
+    <footer class = "footer">
+        <div class = "container">
+            <div class = "row">
+                <div class ="col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Hours</a></li>
+                    </ul>
+                </div>
+                <div class ="col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class ="col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href ="#">Call Us: (890)-532-4041</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </footer>
+    
+</body>
+</html>
